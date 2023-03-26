@@ -49,6 +49,11 @@ and then link it! Many fonts have separate files for each style
         font-weight: bold;
     }
 
+    @font-face {
+        font-family: ExaStar;
+        src: url('../ExaStar-Regular.ttf');
+    }
+
     body {
         font-family: 'GNU Unifont', sans-serif;
         margin: 0;
@@ -129,6 +134,8 @@ you can add them directly to the <div id="header"></div> element! */
     #navbar li a {
         color: #64b4f5;
         /* navbar text color */
+        font-family: ExaStar;
+        font-size: 18pt;
         font-weight: 800;
         text-decoration: none;
         /* this removes the underline */
@@ -137,6 +144,7 @@ you can add them directly to the <div id="header"></div> element! */
     /* navigation link when a link is hovered over */
     #navbar li a:hover {
         color: #a49cba;
+        font-family: ExaStar;
         text-decoration: underline;
     }
 
@@ -217,13 +225,18 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
         width: 100%;
         height: 30px;
         padding: 10px;
-        font-size: 12px;
+        font-size: 18pt;
         background-color: #09142d;
     }
 
     img.reaction{
         max-width: 225pt;
         display: block; /* remove extra space below image */
+    }
+
+    li{
+        font-family: ExaStar;
+        font-size: 14pt;
     }
 
 

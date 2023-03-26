@@ -62,5 +62,9 @@ node_modules/
 # Yarn Integrity file
 .yarn-integrity
 
+<<<<<<< Updated upstream
 # dotenv environment variables filee
+=======
+# dotenv environment variables file
+>>>>>>> Stashed changes
 .env
