@@ -26,31 +26,31 @@ and then link it! Many fonts have separate files for each style
 */
 
     @font-face {
-        font-family: Cayetano;
-        src: url('../CAYETANO.ttf');
+        font-family: Connection3;
+        src: url('../con3.otf');
     }
 
     @font-face {
-        font-family: Cayetano;
-        src: url('../CAYTANOB.ttf');
+        font-family: Connection3;
+        src: url('../con3.otf');
         font-weight: bold;
     }
 
     @font-face {
-        font-family: Cayetano;
-        src: url('../CAYETANI.ttf');
+        font-family: Connection3;
+        src: url('../con3.otf');
         font-style: italic;
     }
 
     @font-face {
-        font-family: Cayetano;
-        src: url('../CAYTANBI.ttf');
+        font-family: Connection3;
+        src: url('../con3.otf');
         font-style: italic;
         font-weight: bold;
     }
 
     body {
-        font-family: 'Cayetano', sans-serif;
+        font-family: 'Connection3', sans-serif;
         margin: 0;
         background-color: #030c1a;
         /* you can delete the line below if you'd prefer to not use an image */
