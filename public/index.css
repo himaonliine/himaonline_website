@@ -62,6 +62,19 @@ and then link it! Many fonts have separate files for each style
         background-size: 65px;
         color: #fceaff;
         background-image: var(--body-bg-image);
+        -webkit-animation: scrolling 50s linear infinite;
+        -moz-animation: scrolling 50s linear infinite;
+        -o-animation: scrolling 50s linear infinite;
+        animation: scrolling 50s linear infinite;
+    }
+    
+    @-webkit-keyframes scrolling {
+      from{
+          background-position: 0 0;
+      }
+      to{
+          background-position: 0 105%;
+      }
     }
 
     * {
