@@ -166,7 +166,6 @@ you can add them directly to the <div id="header"></div> element! */
     #navbar {
         height: 40px;
         background-color: rgb(1, 0, 14);
-        /* navbar color */
         width: 100%;
     }
 
