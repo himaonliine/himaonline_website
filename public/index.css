@@ -9,6 +9,7 @@ the images as variables */
     :root {
         --header-image: url('../banner.png');
         --body-bg-image: url('https://sadhost.neocities.org/images/tiles/stars3.gif');
+        --navbar-image: url('../navbar_metal.png');
 
         /* colors */
         --content: #1d1a20;
@@ -126,7 +127,7 @@ you can add them directly to the <div id="header"></div> element! */
     /* navigation section!! */
     #navbar {
         height: 40px;
-        background-image: url(navbar_metal.png);
+        background-image: var(--navbar-image);
         /* navbar color */
         width: 100%;
     }
