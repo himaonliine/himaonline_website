@@ -97,11 +97,10 @@ and then link it! Many fonts have separate files for each style
     body {
         font-family: 'GNU Unifont', sans-serif;
         margin: 0;
-        background-color: #030c1a;
+        background-color: #00060f;
         /* you can delete the line below if you'd prefer to not use an image */
         background-size: 65px;
         color: #fceaff;
-        background-image: var(--body-bg-image);
         -webkit-animation: scrolling 50s linear infinite;
         -moz-animation: scrolling 50s linear infinite;
         -o-animation: scrolling 50s linear infinite;
