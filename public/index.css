@@ -127,7 +127,7 @@ you can add them directly to the <div id="header"></div> element! */
     /* navigation section!! */
     #navbar {
         height: 40px;
-        background-image: var(--navbar-image);
+        background-color: #142945;
         /* navbar color */
         width: 100%;
     }
