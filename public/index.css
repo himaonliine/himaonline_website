@@ -126,7 +126,7 @@ you can add them directly to the <div id="header"></div> element! */
     /* navigation section!! */
     #navbar {
         height: 40px;
-        background-color: #09112d;
+        background-image: url(navbar_metal.png);
         /* navbar color */
         width: 100%;
     }
