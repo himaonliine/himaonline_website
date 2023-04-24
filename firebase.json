@@ -1,12 +1,5 @@
 {
   "hosting": {
-    "headers": [ {
-      "source": "*.php",
-      "headers": [ {
-        "key": "Content-Type",
-        "value": "text/html",
-      } ]
-    ],
     "cleanUrls": true,
     "public": "public",
     "ignore": [
